@@ -60,7 +60,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film1.filmAd}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -69,7 +69,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film1.filmTur}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -78,7 +78,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film1.filmImdb}"
                     android:textAlignment="center" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -111,7 +111,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film2.filmAd}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -120,7 +120,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film2.filmTur}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -129,7 +129,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film2.filmImdb}"
                     android:textAlignment="center" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -170,7 +170,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film3.filmAd}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -179,7 +179,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film3.filmTur}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -188,7 +188,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film3.filmImdb}"
                     android:textAlignment="center" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
@@ -221,7 +221,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film4.filmAd}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -230,7 +230,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film4.filmTur}"
                     android:textAlignment="center" />
 
                 <TextView
@@ -239,7 +239,7 @@
                     android:layout_height="0dp"
                     android:layout_weight="0.1"
                     android:gravity="center"
-                    android:text="TextView"
+                    android:text="@{film4.filmImdb}"
                     android:textAlignment="center" />
             </LinearLayout>
         </androidx.cardview.widget.CardView>
