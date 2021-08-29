@@ -5,9 +5,16 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.viewModels
 import com.example.wtech_mvvm_example.R
+import com.example.wtech_mvvm_example.databinding.ActivityAnaBinding
+import com.example.wtech_mvvm_example.databinding.FragmentGirisYapBinding
+import com.example.wtech_mvvm_example.viewmodels.giris.GirisYapViewModel
 
 class GirisYapFragment : Fragment() {
+
+    private lateinit var binding: FragmentGirisYapBinding
+    private val viewModel : GirisYapViewModel by viewModels()
 
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
