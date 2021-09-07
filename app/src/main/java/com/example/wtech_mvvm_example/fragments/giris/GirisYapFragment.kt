@@ -12,7 +12,6 @@ import androidx.fragment.app.viewModels
 import androidx.navigation.fragment.findNavController
 import com.example.wtech_mvvm_example.R
 import com.example.wtech_mvvm_example.activity.AnaActivity
-import com.example.wtech_mvvm_example.databinding.ActivityAnaBinding
 import com.example.wtech_mvvm_example.databinding.FragmentGirisYapBinding
 import com.example.wtech_mvvm_example.viewmodels.giris.GirisYapViewModel
 import com.google.android.material.snackbar.Snackbar
@@ -26,11 +25,10 @@ class GirisYapFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        //return inflater.inflate(R.layout.fragment_giris_yap, container, false)
 
         binding = DataBindingUtil.inflate(inflater, R.layout.fragment_giris_yap, container, false)
         return binding.root
+
     }
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
