@@ -8,6 +8,7 @@ import com.example.wtech_mvvm_example.repos.AnaActivityRepo
 class DizilerViewModel : ViewModel(){
 
     val anaDepo = AnaActivityRepo()
+    
     var dizilerData = MutableLiveData<ArrayList<Dizi ? >>()
 
     init {
